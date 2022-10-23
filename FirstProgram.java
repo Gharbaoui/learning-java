@@ -1,13 +1,10 @@
 import java.util.Scanner;
+import MyCustomPack.*;
 
 class	FirstProgram {
 	public static void	main(String[] args) {
-		Scanner input = new Scanner(System.in);
-
-		int num;
-
-		num = input.nextInt();
-		System.out.println("square of number: " + (num * num));
-		input.close();
+		Bicycle b = new Bicycle();
+		Car c = new Car();
+		b.braking();
 	}
 }
